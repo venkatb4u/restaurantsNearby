@@ -1,0 +1,160 @@
+/* line 1, /Users/venkat/myWorks/byPaaS/assets/sass/_loader.scss */
+.ajax-loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 9999; }
+
+/* line 11, /Users/venkat/myWorks/byPaaS/assets/sass/_loader.scss */
+.loader {
+  margin: 20em auto 6em auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid white;
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid #ffffff;
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear; }
+
+/* line 23, /Users/venkat/myWorks/byPaaS/assets/sass/_loader.scss */
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em; }
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+/*
+* Facebook Feed Monitoring
+*/
+/* line 5, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+.fbHead {
+  text-align: center; }
+
+/* line 8, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+#fb {
+  background: #E9EAED;
+  padding: 1px 0;
+  width: 70%;
+  margin: 0 auto; }
+  /* line 15, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+  #fb .postStatus input {
+    width: 98%;
+    margin: 10px 0 0 10px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px; }
+  /* line 24, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+  #fb ul {
+    list-style: none;
+    padding: 0; }
+  /* line 28, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+  #fb .feeds {
+    width: 100%; }
+    /* line 30, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+    #fb .feeds > li {
+      background: #fff;
+      border-radius: 3px;
+      border: 1px solid #f1f1f1;
+      padding: 10px;
+      margin: 10px; }
+      /* line 36, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+      #fb .feeds > li header {
+        background: #fff; }
+        /* line 38, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+        #fb .feeds > li header h4 {
+          display: inline-block;
+          margin: 10px;
+          vertical-align: middle; }
+          /* line 42, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+          #fb .feeds > li header h4 a {
+            color: #3b5998; }
+      /* line 47, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+      #fb .feeds > li .msg {
+        padding: 20px 0 10px; }
+      /* line 50, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+      #fb .feeds > li .link, #fb .feeds > li .photo {
+        text-align: center; }
+        /* line 52, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+        #fb .feeds > li .link a, #fb .feeds > li .photo a {
+          width: 80%;
+          display: inline-block; }
+          /* line 55, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+          #fb .feeds > li .link a img, #fb .feeds > li .photo a img {
+            width: 80%;
+            height: 400px;
+            margin: 0 auto; }
+      /* line 62, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+      #fb .feeds > li .actions {
+        border-bottom: 1px solid #dde2e9;
+        border-top: 1px solid #dde2e9;
+        padding: 10px 0; }
+        /* line 66, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+        #fb .feeds > li .actions a {
+          color: #7f7f7f;
+          margin-right: 20px; }
+      /* line 71, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+      #fb .feeds > li footer {
+        background: #f6f7f8;
+        padding: 10px 0; }
+        /* line 76, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+        #fb .feeds > li footer .comments li > img {
+          vertical-align: super;
+          width: 40px;
+          height: 40px; }
+          /* line 80, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+          #fb .feeds > li footer .comments li > img + div {
+            display: inline-block; }
+            /* line 82, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+            #fb .feeds > li footer .comments li > img + div h5 {
+              display: inline-block;
+              margin: 10px;
+              vertical-align: middle; }
+              /* line 86, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+              #fb .feeds > li footer .comments li > img + div h5 a {
+                color: #3b5998; }
+            /* line 90, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+            #fb .feeds > li footer .comments li > img + div .commentMsg {
+              display: inline-block;
+              margin-left: 10px; }
+        /* line 96, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+        #fb .feeds > li footer .comments li .commentActions {
+          margin-left: 10px; }
+          /* line 98, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+          #fb .feeds > li footer .comments li .commentActions a {
+            color: #7f7f7f;
+            margin-right: 20px; }
+        /* line 105, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+        #fb .feeds > li footer .writeComment {
+          margin: 10px; }
+          /* line 107, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+          #fb .feeds > li footer .writeComment img {
+            width: 35px;
+            height: 35px;
+            vertical-align: bottom; }
+          /* line 112, /Users/venkat/myWorks/byPaaS/assets/sass/_searchPlaces.scss */
+          #fb .feeds > li footer .writeComment input {
+            width: 94%;
+            padding: 10px;
+            float: right;
+            height: 35px; }
